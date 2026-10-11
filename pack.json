@@ -1,0 +1,12 @@
+{
+  "looks": "data/demons.tsv",
+  "root": "Creature\\RetailDemons",
+  "first_display": 98000,
+  "first_model": 98000,
+  "preview_base": 9502500,
+  "subname": "Demon Look",
+  "sort_base": 2000,
+  "prune_textures": true,
+  "template": {"imp": 4449, "voidwalker": 1132, "succubus": 4162, "felhunter": 850, "felguard": 14255, "infernal": 169, "doomguard": 1912},
+  "source": "buildthehomelab/wow-mod-retail-warlock-pets data/demons.tsv. Every look is a display the realm's\n-- client already has: there is no patch to build yet."
+}
