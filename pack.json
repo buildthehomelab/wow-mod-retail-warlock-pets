@@ -8,5 +8,5 @@
   "sort_base": 2000,
   "prune_textures": true,
   "template": {"imp": 4449, "voidwalker": 1132, "succubus": 4162, "felhunter": 850, "felguard": 14255, "infernal": 169, "doomguard": 1912},
-  "source": "buildthehomelab/wow-mod-retail-warlock-pets data/demons.tsv. Every look is a display the realm's\n-- client already has: there is no patch to build yet."
+  "source": "buildthehomelab/wow-mod-retail-warlock-pets data/demons.tsv. The display ids from 98000 are in that repo's\n-- patch-Y.MPQ; the rest are the client's own demons."
 }

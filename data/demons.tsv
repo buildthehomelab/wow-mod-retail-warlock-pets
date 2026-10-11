@@ -1,28 +1,75 @@
-display	retail_display	variant	form	tier	model	name	textures	folder	preview
-7552			imp	0		Imp (Jade)			9502900
-10811			imp	0		Imp (Red)			9502901
-20104			imp	8		Fel Imp (Olive)			9502902
-21048			imp	8		Fel Imp (Ashen)			9502903
-17081			voidwalker	8		Outland Voidwalker (Blue and Purple)			9502904
-16635			voidwalker	9		Voidlord (Purple)			9502905
-18170			voidwalker	10		Voidlord (Blue and Red)			9502906
-159			succubus	0		Succubus (Magenta)			9502907
-2737			succubus	0		Succubus (Blue)			9502908
-10950			felhunter	0		Felhound			9502909
-5048			felguard	0		Felguard (Blue)			9502910
-9015			felguard	0		Felguard (Yellow)			9502911
-18342			felguard	1		Felguard (Red)			9502912
-19901			felguard	2		Felguard (White)			9502913
-17542			felguard	9		Wrathguard (Purple)			9502914
-19599			felguard	10		Wrathguard (Red and Dark)			9502915
-19597			felguard	11		Wrathguard (Black)			9502916
-20041			felguard	13		Wrathguard (Red)			9502917
-20040			felguard	13		Wrathguard (Green)			9502918
-16874			infernal	8		Abyssal			9502919
-18311			doomguard	0		Doomguard (Blue)			9502920
-22809			doomguard	8		Outland Doomguard (Crimson)			9502921
-18143			doomguard	9		Outland Doomguard (Black)			9502922
-17097			doomguard	10		Outland Doomguard (Blue)			9502923
-17098			doomguard	11		Outland Doomguard (Green)			9502924
-17100			doomguard	12		Outland Doomguard (Yellow)			9502925
-17099			doomguard	13		Outland Doomguard (Purple)			9502926
+display	retail_display	variant	form	tier	model	name	textures	folder	preview	client_display	display_scale
+7552			imp	0		Imp (Jade)			9502900		
+10811			imp	0		Imp (Red)			9502901		
+98030			imp	3		Imp (Blue)	1101613,0,0			4449	0.5
+98031			imp	4		Imp (Purple)	1248111,0,0			4449	0.5
+98032			imp	5		Imp (Yellow)	1101615,0,0			4449	0.5
+98033			imp	6		Imp (White)	1248113,0,0			4449	0.5
+20104			imp	8		Fel Imp (Olive)			9502902		
+21048			imp	8		Fel Imp (Ashen)			9502903		
+98000			imp	9		Fel Imp (Red)				16888	0.5
+98001			imp	10		Fel Imp (Purple)				16889	0.5
+98002			imp	15		Imp (Hologram)				18510	0.5
+17081			voidwalker	8		Outland Voidwalker (Blue)			9502904		
+16635			voidwalker	9		Voidlord (Purple)			9502905		
+18170			voidwalker	10		Voidlord (Blue)			9502906		
+98003			voidwalker	11		Outland Voidwalker (Purple)				18953	1.0
+98004			voidwalker	12		Voidlord (Red)				26214	1.0
+98005			voidwalker	13		Voidcaller (Blue)				17704	0.7
+98006			voidwalker	14		Voidcaller (Purple)				17746	0.7
+98007			voidwalker	16		Voidcaller (Red)				19884	0.7
+159			succubus	0		Succubus (Magenta)			9502907		
+2737			succubus	0		Succubus (Blue)			9502908		
+98008			succubus	11		Shivarra (Blue)				22422	0.5
+98054	77400		succubus	12	succubus2_fel	Fel Succubus					1.0
+98009			succubus	13		Shivarra (Black)				19587	0.5
+98052	105009		succubus	14	incubus	Incubus					0.31
+98053	105010		succubus	17	incubus	Incubus (Pale)					0.31
+10950			felhunter	0		Felhound			9502909		
+98050	113549		felhunter	2	felhound2	Felhound (Green)					0.5
+98051	113550		felhunter	4	felhound2	Felhound (Dark)					0.5
+98034			felhunter	5		Felhunter (Purple)	5206079,5206075,5206072			850	0.5
+98035			felhunter	7		Felhunter (Violet)	5206081,5206077,5206074			850	0.5
+98010			felhunter	8		Felbeast (Red)				28645	0.35
+98011			felhunter	9		Felbeast (Green)				18644	0.35
+98012			felhunter	10		Observer (Blue)				19579	0.33
+98013			felhunter	10		Observer (Green)				20528	0.33
+98014			felhunter	11		Observer (Red)				19877	0.33
+98015			felhunter	11		Observer (Beige)				19878	0.33
+98016			felhunter	12		Observer (Black)				21447	0.33
+98017			felhunter	13		Observer (Gray)				20527	0.33
+98038			felhunter	14		Darkglare (Purple)	1408767,0,0			19579	0.33
+98039			felhunter	15		Darkglare (Green)	1408774,0,0			19579	0.33
+98040			felhunter	16		Darkglare (Blue)	1408772,0,0			19579	0.33
+98041			felhunter	17		Darkglare (Brown)	1408773,0,0			19579	0.33
+98042			felhunter	18		Darkglare (Albino)	1408771,0,0			19579	0.33
+98057	73459		felhunter	18	greaterbeholder	Greater Observer					0.61
+5048			felguard	0		Felguard (Blue)			9502910		
+9015			felguard	0		Felguard (Yellow)			9502911		
+18342			felguard	1		Felguard (Red)			9502912		
+19901			felguard	2		Felguard (White)			9502913		
+17542			felguard	9		Wrathguard (Purple)			9502914		
+20041			felguard	10		Wrathguard (Red)			9502915		
+19597			felguard	11		Wrathguard (Black)			9502916		
+20040			felguard	13		Wrathguard (Green)			9502917		
+98036			felguard	15		Wrathguard (Yellow)	1127392,0,0			17542	1.0
+98055	113801		infernal	1	infernal2	Infernal (Fire)					1.2
+98056	113802		infernal	7	infernal2	Infernal (Shadow)					1.2
+16874			infernal	8		Abyssal			9502918		
+98018			infernal	10		Abyssal (Pale)				20810	1.0
+98019			infernal	11		Illidari Abyssal				21145	1.5
+18311			doomguard	0		Doomguard (Blue)			9502919		
+98037			doomguard	4		Doomguard (Yellow)	1115876,1115880,0			1912	1.2
+98020			doomguard	6		Doom Lord				27788	0.52
+98021			doomguard	7		Doom Lord (Classic)				12449	0.27
+22809			doomguard	8		Outland Doomguard (Crimson)			9502920		
+18143			doomguard	9		Outland Doomguard (Black)			9502921		
+17097			doomguard	10		Outland Doomguard (Blue)			9502922		
+17098			doomguard	11		Outland Doomguard (Green)			9502923		
+17100			doomguard	12		Outland Doomguard (Yellow)			9502924		
+17099			doomguard	13		Outland Doomguard (Purple)			9502925		
+98058	76701		doomguard	14	tyrant	Demonic Tyrant					1.05
+98059	74888		doomguard	15	tyrant	Tyrant (Blue)					1.05
+98060	74889		doomguard	16	tyrant	Tyrant (Green)					1.05
+98061	74890		doomguard	17	tyrant	Tyrant (Purple)					1.05
+98062	74891		doomguard	18	tyrant	Tyrant (Red)					1.05
