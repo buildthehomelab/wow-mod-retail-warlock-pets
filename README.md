@@ -103,11 +103,12 @@ after adding a look or moving one to another phase.
 `--dbc` needs `CreatureDisplayInfo.dbc`, `CreatureModelData.dbc` and `AnimationData.dbc` as the
 players' client has them. A patch replaces whole files, and the other packs' patches ship the
 same two creature DBCs. The later letter wins, so each patch has to carry the rows of the ones
-before it: on our realm the chain is R (druid forms), V (shaman totems), Y (this one), Z
-(companion pets). Build Y with `--dbc` holding the two DBCs from the finished patch-V, and
-rebuild patch-Z on Y's whenever Y changes.
+before it. For example, with the druid forms, shaman totems and companion pets packs as well,
+the chain could be patch-R (druid forms), patch-V (shaman totems), patch-Y (this one), patch-Z
+(companion pets). Then build Y with `--dbc` holding the two DBCs from the finished patch-V, and
+rebuild patch-Z on Y's whenever Y changes. The letters are examples; use free ones.
 
-The client has to be the Reforged HD one: 35 looks are rows on its models, and the retail
+The client needs Project Reforged HD: 35 looks are rows on its models, and the retail
 textures only fit those. On a stock 3.3.5a client the 26 own displays and the 13 converted
 models still work; the resized and retextured ones would land on the classic models.
 
