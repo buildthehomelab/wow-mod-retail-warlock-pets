@@ -3,8 +3,8 @@
 
     python3 inventory.py --cache <download dir> [--dbc <dir with the client's CreatureDisplayInfo.dbc>]
 
-The realm's client (Project Reforged HD) already gives each demon an HD model, and those models
-are retail's own. So a look is one of four things, listed here by hand:
+A client with Project Reforged HD already gives each demon an HD model, and those models are
+retail's own. So a look is one of four things, listed here by hand:
 
 - CLIENT: a display the client has at the pet's size. Nothing to build, only the SQL.
 - SCALED: a display the client only has at another size (a boss's). The patch adds a copy of
