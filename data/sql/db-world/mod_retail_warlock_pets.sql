@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `mod_transmog_plus_forms` (
     `SortOrder` int(10) unsigned NOT NULL DEFAULT 0,
     PRIMARY KEY (`DisplayId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-DELETE FROM `mod_transmog_plus_forms` WHERE `Form` IN ('imp', 'voidwalker', 'succubus', 'felhunter', 'felguard', 'infernal', 'doomguard');
+DELETE FROM `mod_transmog_plus_forms` WHERE `Form` IN ('imp', 'voidwalker', 'succubus', 'felhunter', 'felguard', 'infernal', 'doomguard') AND `PreviewCreature` BETWEEN 9502500 AND 9502999;
 INSERT INTO `mod_transmog_plus_forms` (`DisplayId`, `Form`, `Name`, `UnlockPhase`, `PreviewCreature`, `SortOrder`) VALUES
 (7552, 'imp', 'Imp (Jade)', 0, 9502900, 2001),
 (10811, 'imp', 'Imp (Red)', 0, 9502901, 2002),
@@ -260,7 +260,7 @@ INSERT INTO `creaturedisplayinfo_dbc` (`ID`, `ModelID`, `SoundID`, `ExtendedDisp
 (98006, 2379, 0, 0, 0.7, 255, 'VoidCallerSkin_Purple', '', '', '', -1, 0, 0, 0, 0, 0),
 (98007, 2379, 0, 0, 0.7, 255, 'VoidCallerSkin_Red', '', '', '', -1, 0, 0, 0, 0, 0),
 (98008, 2361, 2345, 0, 0.5, 128, 'ShivanSkin_Blue', '', '', '', 1, 0, 0, 312, 0, 0),
-(98054, 98000, 0, 0, 1, 255, 'T1537015', 'T1537014', 'T1537016', '', 1, 1, 0, 0, 0, 0),
+(98054, 98000, 0, 0, 1, 255, 'T1537015', 'T1537014', 'T1537015k', '', 1, 1, 0, 0, 0, 0),
 (98009, 2361, 2344, 0, 0.5, 255, 'ShivanSkin_Black', '', '', '', 1, 0, 0, 312, 0, 0),
 (98052, 98001, 0, 0, 0.31, 255, 'T4292165', '', '', '', 1, 1, 0, 0, 0, 0),
 (98053, 98001, 0, 0, 0.31, 255, 'T4292166', '', '', '', 1, 1, 0, 0, 0, 0),
